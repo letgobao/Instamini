@@ -24,11 +24,8 @@ const Navigation = () => {
             <div className='logo'>Instamini</div>
           </div>
           <div className='nav-search'>
+            <img src={SearchIcon} alt='Tìm kiếm' />
             <input type='text' placeholder='Tìm kiếm' />
-            <div className='search-box'>
-              <img src={SearchIcon} alt='Tìm kiếm' />
-              <span className='search-title'>Tìm kiếm</span>
-            </div>
           </div>
           <div className='nav-options'>
             <div className="option">
