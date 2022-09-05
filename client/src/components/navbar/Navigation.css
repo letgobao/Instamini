@@ -1,0 +1,47 @@
+/** @format */
+
+.navigation {
+  background-color: rgb(255, 255, 255);
+}
+
+.nav-box {
+  position: fixed;
+  top: 0;
+  height: 70px;
+  z-index: 10;
+  width: 100%;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+}
+
+.nav-container {
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+  width: 100%;
+  max-width: 1040px;
+}
+
+.nav-logo {
+  flex: 1 0 120px;
+}
+
+.nav-search {
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+}
+
+.nav-search > input {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: rgb(220, 220, 220);
+  height: 40px;
+  padding: 3px 15px;
+  color: rgb(50, 50, 50);
+}
