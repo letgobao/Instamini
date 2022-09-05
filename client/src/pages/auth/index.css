@@ -1,0 +1,21 @@
+.login {
+  background: #fafafa;
+  height: 100vh;
+}
+.demo {
+  height: 600px;
+  width: 500px;
+  background: url("../../imgs/bg.png");
+  position: relative;
+}
+.demo > img {
+  position: absolute;
+  top: 25px;
+  left: 156px;
+}
+.container {
+  padding-top: 50px;
+  width: 800px;
+  display: flex;
+  margin: auto;
+}
