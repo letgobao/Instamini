@@ -52,11 +52,11 @@
   font-family: Roboto;
 }
 
-.nav-search > img {
+/* .nav-search > img {
   width: 16px;
   height: 16px;
   margin-right: 5px;
-}
+} */
 
 .nav-options {
   display: flex;
@@ -68,10 +68,20 @@
 
 .option {
   width: 40px;
+  height: 40px;
+  border-radius: 10px;
   margin-left: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
 }
 
-.option > img {
-  width: 30px;
-  height: 30px;
+/* .option > img {
+  width: 27px;
+  height: 27px;
+} */
+
+.selected {
+  background-color: rgba(0, 0, 0, 0.2);
 }
