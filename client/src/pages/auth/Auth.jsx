@@ -6,8 +6,8 @@ import { Button, Paper, TextField, Typography } from "@mui/material";
 import Link from "@mui/material/Link";
 const Auth = () => {
   return (
-    <div className="login">
-      <div className="container">
+    <div className="auth">
+      <div className="container-login">
         <div className="demo">
           <img src={logo} alt="demo" />
         </div>
@@ -48,7 +48,7 @@ const Auth = () => {
           >
             Chưa có tài khoản?
             <Link
-              href="#"
+              href="/register"
               underline="none"
               fontWeight="600"
               sx={{

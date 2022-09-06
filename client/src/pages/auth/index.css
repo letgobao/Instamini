@@ -1,6 +1,12 @@
-.login {
+.auth {
   background: #fafafa;
   height: 100vh;
+}
+.container-login {
+  padding-top: 50px;
+  max-width: 850px;
+  display: flex;
+  margin: auto;
 }
 .demo {
   height: 600px;
@@ -12,12 +18,6 @@
   position: absolute;
   top: 25px;
   left: 156px;
-}
-.container {
-  padding-top: 50px;
-  width: 850px;
-  display: flex;
-  margin: auto;
 }
 
 .login-form {
@@ -43,4 +43,29 @@
 .forgot > a {
   text-decoration: none;
   color: black;
+}
+
+/* register */
+.container-register {
+  padding-top: 50px;
+}
+.des {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+}
+.register-form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 30px;
+}
+.register-form > div {
+  margin-bottom: 10px;
+}
+.register-form > button {
+  margin-top: 10px;
+  margin-bottom: 30px;
 }

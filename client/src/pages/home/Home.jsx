@@ -4,18 +4,17 @@ import React from "react";
 import Navigation from "../../components/navbar/Navigation";
 import Stories from "../../components/following/Stories";
 
-import './index.css'
+import "./index.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Personal from "../personal/Personal";
+import { ronaldo } from "../../data/personal";
 const Home = () => {
   return (
     <div>
       <Navigation />
-      <div className="Home" style={{height: '300vh'}}>
-        <div className="main-side" style={{width: '500px'}}>
-          <Stories/>
-        </div>
-        
-        home
-      </div>
+      <Routes>
+        <Route path="ronaldo" element={<Personal data={ronaldo} />} />
+      </Routes>
     </div>
   );
 };
