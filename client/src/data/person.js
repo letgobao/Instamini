@@ -1,5 +1,5 @@
 export const persons = [
-    {name: 'cristiano ronaldo', img: 'https://vcdn1-thethao.vnecdn.net/2022/09/02/screenshot-2022-09-02-at-11-36-2266-9935-1662093523.png?w=500&h=300&q=100&dpr=1&fit=crop&s=7ubz-ksxN7MZn1y9bHQ7LA'},
+    {name: 'cristianoronaldo', img: 'https://vcdn1-thethao.vnecdn.net/2022/09/02/screenshot-2022-09-02-at-11-36-2266-9935-1662093523.png?w=500&h=300&q=100&dpr=1&fit=crop&s=7ubz-ksxN7MZn1y9bHQ7LA'},
     {name: 'riot game', img: 'https://play-lh.googleusercontent.com/vKArtOUZ9IRzsYnn-reeMZVeTc5_io3bAj8oU88ZBEMPYzlmb8cmxPM2uRlByvTO03I'},
     {name: 'geng', img: 'https://oneesports.blob.core.windows.net/cdn-data/sites/4/2021/06/lmht-geng-tuyen-dung-game-thu-viet-nam-60c3219bd4b7b.jpg'},
     {name: 't1', img: 'https://cdn.sforum.vn/sforum/wp-content/uploads/2021/07/lol-t1-1.jpg'},
@@ -10,5 +10,6 @@ export const persons = [
     {name: 'wbg', img: 'https://gamek.mediacdn.vn/133514250583805952/2022/3/2/wbg-rng-lpl-1-1646226557047417461548.jpg'},
     {name: 'dk', img: 'http://kuesports.net/wp-content/uploads/2021/07/damwon-gaming-doi-ten-14146-2.jpg'},
     {name: 'facebook', img: 'https://cdn.tgdd.vn/2020/03/GameApp/Facebook-200x200.jpg'},
-    {name: 'youtube', img: 'https://img.nhandan.com.vn/Files/Images/2021/04/13/3A708284_F5B8_407D_ADC0_339DBEE-1618275907021.jpeg'}
+    {name: 'youtube', img: 'https://img.nhandan.com.vn/Files/Images/2021/04/13/3A708284_F5B8_407D_ADC0_339DBEE-1618275907021.jpeg'},
+    {name: 'one piece', img: 'https://img.techplanet.today/800x,jpeg/https://techplanet.today/storage/posts/2022/08/27/94/i89F3RYOVMsjHPUS9XVeOiDSW3nJRR2Ob0e3qxAJ.jpg'}
 ]
