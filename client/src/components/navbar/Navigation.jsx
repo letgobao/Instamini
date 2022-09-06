@@ -56,7 +56,7 @@ const Navigation = () => {
               <NotificationsNoneIcon />
             </div>
             <Link
-              to="/ronaldo"
+              to="ronaldo"
               className={option === 5 ? "option selected" : "option"}
               onClick={() => {
                 setOption(5);
