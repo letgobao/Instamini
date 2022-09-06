@@ -1,0 +1,49 @@
+.Stories {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border: 0.5px solid rgb(200, 200, 200);
+    border-radius: 10px;
+}
+
+.stories-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.following-card {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.following-name {
+    max-width: 75px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.btn {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: rgba(240, 240, 240, 0.9);
+    cursor: pointer;
+}
+.pre-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.btn-n-display {
+    display: none;
+}

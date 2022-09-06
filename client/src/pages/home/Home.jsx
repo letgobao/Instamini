@@ -10,7 +10,10 @@ const Home = () => {
     <div>
       <Navigation />
       <div className="Home" style={{height: '300vh'}}>
-        <Stories/>
+        <div className="main-side" style={{width: '500px'}}>
+          <Stories/>
+        </div>
+        
         home
       </div>
     </div>
