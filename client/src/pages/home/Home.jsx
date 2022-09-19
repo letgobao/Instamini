@@ -13,6 +13,7 @@ const Home = () => {
   const url = useLocation();
   useEffect(() => {
     const path = url.pathname.split("/")[1];
+    console.log(path)
     if (path === "ronaldo") {
       setSelectedUser(ronaldo);
     } else if (path === "du.tran917") {
@@ -20,8 +21,10 @@ const Home = () => {
     }
   }, [url]);
   return (
-    <div style={{ paddingTop: "100px" }}>
+    <div>
       <Navigation setSelectedUser={setSelectedUser} />
+      <div className="main-container">
+
       <Routes>
         <Route path="/" element={<MainPage/>} />
         <Route
@@ -29,6 +32,7 @@ const Home = () => {
           element={<Personal data={selectedUser} />}
         />
       </Routes>
+      </div>
     </div>
   );
 };
