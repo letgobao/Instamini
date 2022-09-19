@@ -9,8 +9,10 @@ import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import "./Navigation.css";
 import { Link } from "react-router-dom";
-const Navigation = () => {
+import { dutran } from "../../data/personal";
+const Navigation = ({ setSelectedUser }) => {
   const [option, setOption] = useState(1);
+  const username = "du.tran917";
   return (
     <nav className="navigation">
       <div className="nav-box">
@@ -56,10 +58,11 @@ const Navigation = () => {
               <NotificationsNoneIcon />
             </div>
             <Link
-              to="ronaldo"
+              to={username}
               className={option === 5 ? "option selected" : "option"}
               onClick={() => {
                 setOption(5);
+                setSelectedUser(dutran);
               }}
             >
               <AccountCircleOutlinedIcon />
