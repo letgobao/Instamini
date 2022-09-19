@@ -1,0 +1,82 @@
+.personal {
+  max-width: 1024px;
+  margin: auto;
+}
+/* Personl header */
+.personal-header {
+  display: flex;
+}
+.personal-avatar {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.personal-info {
+  flex-grow: 2;
+}
+.p-name {
+  display: flex;
+  align-items: center;
+}
+.p-name > h4 {
+  margin-right: 20px;
+  font-weight: 100;
+}
+.p-name button {
+  margin: 0 5px;
+  text-transform: none;
+}
+.p-number {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+.p-number span {
+  font-weight: 600;
+}
+.p-number li:nth-child(1) {
+  margin-right: 40px;
+}
+.p-number li:nth-child(2) {
+  margin-right: 40px;
+}
+.description {
+  margin: 20px 0;
+}
+.des-fullname {
+  font-weight: 600;
+}
+.des-content {
+  text-overflow: ellipsis;
+  max-width: 500px;
+}
+
+/* Personal post */
+.personal-post {
+  margin-top: 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+.p-post-option {
+  width: 400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.p-post-option a {
+  text-decoration: none;
+  color: black;
+  padding: 20px 10px;
+  box-sizing: border-box;
+}
+.p-post-option a > div {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+.p-option-select {
+  border-top: 1px solid black;
+}
