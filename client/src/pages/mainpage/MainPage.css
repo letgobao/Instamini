@@ -1,6 +1,10 @@
 .MainPage{
     width: 100%;
     display: grid;
-    grid-template-columns: 45% 50%;
-    gap: 1rem;
+    grid-template-columns: 40% 55%;
+    gap: 3%;
+}
+
+.left-side {
+    padding-left: 20px;
 }

@@ -1,0 +1,18 @@
+.user-card {
+    margin-bottom: 20px;
+}
+
+.user-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.uchc {
+    display: flex;
+    align-items: center;
+}
+
+.user-content {
+    margin-left: 15px;
+}
