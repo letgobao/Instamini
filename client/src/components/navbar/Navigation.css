@@ -3,7 +3,8 @@
 .navigation {
   background-color: rgb(255, 255, 255);
 }
-
+.navigation > a {
+}
 .nav-box {
   position: fixed;
   top: 0;
@@ -67,6 +68,7 @@
 }
 
 .option {
+  color: black;
   width: 40px;
   height: 40px;
   border-radius: 10px;
@@ -85,4 +87,3 @@
 .selected {
   background-color: rgba(0, 0, 0, 0.2);
 }
-
