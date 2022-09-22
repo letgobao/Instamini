@@ -18,21 +18,24 @@ const Navigation = ({ setSelectedUser }) => {
       <div className="nav-box">
         <div className="nav-container">
           <div className="nav-logo">
-            <div className="logo">Instamini</div>
+            <a href="/" className="logo">
+              Instamini
+            </a>
           </div>
           <div className="nav-search">
             <SearchOutlinedIcon />
             <input type="text" placeholder="Tìm kiếm" />
           </div>
           <div className="nav-options">
-            <div
+            <Link
+              to="/"
               className={option === 1 ? "option selected" : "option"}
               onClick={() => {
                 setOption(1);
               }}
             >
               <HomeOutlinedIcon />
-            </div>
+            </Link>
             <div
               className={option === 2 ? "option selected" : "option"}
               onClick={() => {

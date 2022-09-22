@@ -80,7 +80,7 @@ const Personal = ({ data }) => {
         <div className="p-post-option">
           <Link
             className={selectedOption === 1 ? "p-option-select" : ""}
-            to={data.username}
+            to="*/"
             onClick={(e) => {
               setSelectedOption(1);
             }}
